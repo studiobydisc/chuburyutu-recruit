@@ -1,0 +1,32 @@
+.wrap {
+  padding: var(--padding-topbottom-large) var(--padding-side);
+  background-color: var(--color-orange);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--padding-topbottom);
+  color: var(--color-white);
+}
+
+.box_img {
+  position: relative;
+}
+
+.img,
+.img_right {
+  width: 60%;
+  border-radius: 20px;
+}
+
+.img_right {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.box_text {
+  margin-bottom: var(--margin-exlarge);
+}
+
+.btn {
+  text-align: end;
+}

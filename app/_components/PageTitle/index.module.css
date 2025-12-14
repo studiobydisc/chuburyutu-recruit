@@ -1,0 +1,11 @@
+.title {
+  padding-top: var(--padding-topbottom-large);
+  padding-bottom: var(--padding-topbottom);
+  padding-right: var(--padding-side);
+  padding-left: var(--padding-side);
+}
+
+.inner {
+  padding-bottom: var(--padding-topbottom);
+  border-bottom: 1px solid var(--color-white);
+}

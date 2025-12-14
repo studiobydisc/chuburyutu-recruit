@@ -1,0 +1,22 @@
+.wrap {
+  padding: var(--padding-topbottom) var(--padding-side);
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+
+.header2 {
+  text-align: center;
+}
+
+.movie {
+  width: 100%;
+  max-width: 70%;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+}
+
+.movie iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

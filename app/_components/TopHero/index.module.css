@@ -1,0 +1,16 @@
+.wrap {
+  padding-top: 150px;
+  background-image: linear-gradient(#ffd64ee6 0%, #ffd64e);
+}
+
+.box {
+  padding-right: var(--padding-side);
+  padding-left: var(--padding-side);
+  margin-bottom: var(--margin-medium);
+}
+
+.cc {
+  font-size: 3.75vw !important;
+  font-weight: 600;
+  color: var(--color-white);
+}

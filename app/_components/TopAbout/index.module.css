@@ -1,0 +1,35 @@
+.wrap_top {
+  padding: var(--padding-topbottom-large) var(--padding-side);
+  background-color: var(--color-yellow);
+  color: var(--color-white);
+}
+
+.wrap_bottom {
+  padding: var(--padding-topbottom-large) var(--padding-side);
+  position: relative;
+}
+
+.header2 {
+  margin-bottom: var(--margin-large);
+}
+
+.cc_sub p {
+  font-size: 2.8rem;
+  width: 55%;
+}
+
+.inner {
+  width: 50%;
+}
+
+.img {
+  position: absolute;
+  width: 48%;
+  top: -200px;
+  right: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+.color_yellow {
+  color: var(--color-yellow);
+}

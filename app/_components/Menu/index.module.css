@@ -1,0 +1,167 @@
+.wrap {
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: var(--margin-medium);
+  font-weight: 700;
+}
+
+.btn {
+  padding: 7px 24px;
+  border-radius: 50px;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-black);
+  color: var(--color-white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.btn_menu {
+  display: none;
+  position: relative;
+  width: 70px;
+  height: 40px;
+  z-index: 100;
+  background-color: var(--color-black);
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  width: 40%;
+  height: 2px;
+  background: var(--color-white);
+  transition: 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.line:nth-child(1) {
+  top: 14px;
+}
+.line:nth-child(2) {
+  top: 20px;
+}
+.line:nth-child(3) {
+  top: 26px;
+}
+
+.open .line:nth-child(1) {
+  top: 20px;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.open .line:nth-child(3) {
+  top: 20px;
+  transform: translateX(-50%) rotate(-45deg);
+}
+
+.item_top {
+  display: none;
+}
+
+@media (max-width: 1290px) {
+  .btn_menu {
+    display: block;
+  }
+
+  .nav {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.4s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-black);
+    padding: var(--padding-topbottom);
+    color: var(--color-white);
+    font-size: 2rem;
+  }
+
+  .nav.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--margin-medium);
+  }
+
+  .list li {
+    border-bottom: 1px solid var(--color-lightgray);
+    width: 100%;
+  }
+
+  .list li a {
+    padding-bottom: var(--margin-short);
+  }
+
+  .list li.item {
+    border-bottom: none;
+  }
+
+  .btn,
+  .btn_contact {
+    display: inline-block;
+    width: 100%;
+    padding: 24px 24px;
+    border-radius: 0;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: 2rem;
+    font-weight: 400;
+    transition: all 0.4s;
+    position: relative;
+  }
+
+  .btn::after,
+  .btn_contact::after {
+    content: "⇀";
+    position: absolute;
+    right: 24px;
+  }
+
+  .btn_contact {
+    background-color: var(--color-yellowgreen);
+  }
+
+  .list li a.btn,
+  .list li a.btn_contact {
+    padding-bottom: 24px;
+  }
+
+  .item_top {
+    display: block;
+  }
+}
+
+@media (max-width: 440px) {
+  .nav {
+    padding: var(--margin-large);
+    padding-top: var(--padding-topbottom-large);
+    font-size: 1.8rem;
+  }
+
+  .btn,
+  .btn_contact {
+    font-size: 1.8rem;
+  }
+}
