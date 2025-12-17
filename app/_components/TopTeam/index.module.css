@@ -69,3 +69,20 @@
 .link:hover .img {
   transform: scale(1.2);
 }
+
+@media (max-width: 1024px) {
+  .wrap {
+    padding-top: 280px;
+    padding-bottom: var(--padding-topbottom);
+  }
+}
+
+@media (max-width: 440px) {
+  .wrap {
+    padding-top: 180px;
+  }
+
+  .header3 {
+    font-size: 1.8rem;
+  }
+}

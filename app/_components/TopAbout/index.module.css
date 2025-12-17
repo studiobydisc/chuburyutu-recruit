@@ -1,5 +1,6 @@
 .wrap_top {
-  padding: var(--padding-topbottom-large) var(--padding-side);
+  padding: var(--padding-topbottom) var(--padding-side);
+  padding-bottom: var(--padding-topbottom-large);
   background-color: var(--color-yellow);
   color: var(--color-white);
 }
@@ -32,4 +33,45 @@
 
 .color_yellow {
   color: var(--color-yellow);
+}
+
+@media (max-width: 1024px) {
+  .cc_sub p {
+    font-size: 2.4rem;
+  }
+
+  .wrap_bottom {
+    padding-top: var(--padding-topbottom);
+    padding-bottom: var(--padding-topbottom);
+  }
+}
+
+@media (max-width: 768px) {
+  .cc_sub p {
+    width: 100%;
+  }
+
+  .img {
+    width: 50%;
+    top: -150px;
+  }
+
+  .inner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 440px) {
+  .cc_sub p {
+    font-size: 1.8rem;
+  }
+
+  .img {
+    width: 70%;
+    top: -70px;
+  }
+
+  .wrap_bottom {
+    padding-top: 200px;
+  }
 }

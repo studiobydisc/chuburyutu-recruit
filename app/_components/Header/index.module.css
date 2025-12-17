@@ -59,3 +59,12 @@
   color: var(--color-black);
   font-size: 1.4rem;
 }
+
+@media (max-width: 440px) {
+  .logo {
+    width: 180px;
+  }
+  .text {
+    font-size: 1.4rem;
+  }
+}

@@ -20,6 +20,16 @@ export default function TopTeam() {
             perPage: 3.5,
             perMove: 1,
             flickPower: 120,
+            breakpoints: {
+              1024: {
+                perPage: 2.5,
+                fixedHeight: "600px",
+              },
+              768: {
+                perPage: 1.5,
+                fixedHeight: "480px",
+              },
+            },
           }}
         >
           <SplideSlide>

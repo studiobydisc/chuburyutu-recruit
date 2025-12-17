@@ -40,3 +40,15 @@
   background-color: var(--color-white);
   color: var(--color-black);
 }
+
+@media (max-width: 768px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 440px) {
+  .link {
+    padding: 20px;
+  }
+}

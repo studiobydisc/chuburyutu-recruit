@@ -534,3 +534,70 @@ h4 {
   font-weight: 700;
   margin-bottom: var(--margin-medium);
 }
+
+/* splide */
+
+.splide,
+.splide__track,
+.splide__list {
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 6.4rem;
+  }
+
+  h1 span {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  :root {
+    --padding-side: 4.54vw;
+    --padding-topbottom: 50px;
+    --padding-topbottom-large: 100px;
+    --margin-exlarge: 50px;
+    --margin-large: 30px;
+    --margin-medium: 20px;
+    --margin-small: 10px;
+    --margin-short: 5px;
+  }
+
+  body {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h1 span {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+}

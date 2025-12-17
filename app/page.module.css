@@ -1,3 +1,15 @@
 .wrap p {
   font-size: 2.4rem;
 }
+
+@media (max-width: 1024px) {
+  .wrap p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .wrap p {
+    font-size: 1.6rem;
+  }
+}

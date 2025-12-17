@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "@/app/team/interview.module.css";
 import PageTitle from "@/app/_components/PageTitle";
 import Image from "next/image";
 

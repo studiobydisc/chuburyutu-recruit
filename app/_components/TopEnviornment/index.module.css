@@ -30,3 +30,44 @@
 .btn {
   text-align: end;
 }
+
+@media (max-width: 1440px) {
+  .img,
+  .img_right {
+    width: 70%;
+  }
+
+  .img_right {
+    top: 34%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img_right {
+    top: 24%;
+  }
+
+  .wrap {
+    padding: var(--padding-topbottom) var(--padding-side);
+    gap: var(--margin-large);
+  }
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    grid-template-columns: 1fr;
+    gap: var(--margin-exlarge);
+  }
+
+  .box_img {
+    order: 2;
+  }
+
+  .box_contents {
+    order: 1;
+  }
+
+  .img_right {
+    top: 60%;
+  }
+}

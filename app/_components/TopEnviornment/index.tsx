@@ -21,24 +21,22 @@ export default function TopEnviornment() {
           className={styles.img_right}
         />
       </div>
-      <div>
+      <div className={styles.box_contents}>
         <h2 className="line_wavy">働く環境を知る</h2>
         <h3>
           <span className="cc_br cc_padding cc_white_orange">
-            テキストテキストテキスト、
+            一人ひとりが主役、
           </span>
           <span className="cc_padding cc_white_orange">
-            テキストテキストテキストテキスト。
+            自由に挑戦できる環境です。
           </span>
         </h3>
         <div className={styles.box_text}>
           <p>
-            テキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキスト。
+            仕事の主人公は自分自身。とにかく自由に、そしてお客様のために全力で仕事に取り組む姿勢はかっこいいですよね。
           </p>
           <p>
-            テキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキスト。
+            現場でコミュニケーションをとってもよし、データを分析してロジックのある提案をしてもよし、やり方は十人十色。どんなスタイルでも活躍できる職場です。
           </p>
         </div>
         <div className={styles.btn}>

@@ -10,24 +10,21 @@ export default function Work() {
       </div>
       <section className={`${styles.wrap} ${styles.bg} top_header_trigger`}>
         <h2>中部流通ってどんな会社？</h2>
-        <div className={styles.inner}>
+        <div className={styles.inner_movie}>
           <div className={styles.box_text}>
             <h3>
               <span className="cc_br cc_padding cc_white_orange">
                 私たちはバローを裏で支える、
               </span>
               <span className="cc_padding cc_white_orange">
-                バローホールディングスのグループ企業です。
+                バローHDのグループ企業のです。
               </span>
             </h3>
             <p>
-              ここにテキストを記入ここにテキストを記入ここにテキストを記入
-              ここにテキストを記入ここにテキストを記入ここにテキストを記入。
+              グループの商社という立ち位置で、店舗や工場の運営サポート、食品や生活用品の商品開発サポートをしていくのが私たちの主な仕事内容です。
             </p>
             <p>
-              ここにテキストを記入ここにテキストを記入ここにテキストを記入
-              ここにテキストを記入ここにテキストを記入ここにテキストを記入
-              ここにテキストを記入ここにテキストを記入ここにテキストを記入。
+              現場目線で、お客様のところへ訪問する機会も多く、自分で考えて組み立ていける方や行動力のある方が活躍しやすい仕事です。
             </p>
           </div>
           <div className={styles.movie}>
@@ -43,38 +40,36 @@ export default function Work() {
       <section className={`${styles.wrap} ${styles.bg} ${styles.wrap_bottom}`}>
         <h2>店舗・工場運営を支える</h2>
         <div className={styles.inner}>
-          <div className={styles.box_img}>
+          <div className={`${styles.box_img} ${styles.box_img_top}`}>
             <Image
-              src="/top_environment01.webp"
+              src="/work_support01.webp"
               alt=""
               width={570}
               height={400}
               className={styles.img}
             />
             <Image
-              src="/top_environment02.webp"
+              src="/work_support02.webp"
               alt=""
               width={570}
               height={400}
               className={styles.img_right}
             />
           </div>
-          <div className={styles.box_text}>
+          <div className={`${styles.box_text} ${styles.box_text_top}`}>
             <h3>
               <span className="cc_br cc_padding cc_white_orange">
-                テキストテキストテキスト、
+                食品流通業のあらゆる
               </span>
               <span className="cc_padding cc_white_orange">
-                テキストテキストテキストテキスト。
+                お悩みごとを解決いたします。
               </span>
             </h3>
             <p>
-              テキストテキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキストテキスト。
+              私たちは食品トレーも陳列用備品も、調理機械も商品もデザインももあらゆるサービスを提供しています。
             </p>
             <p>
-              テキストテキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキストテキスト。
+              お客様のお悩みは、私たちのノウハウで全力で解決していく。やりがいのある仕事に挑戦することができます。
             </p>
           </div>
         </div>
@@ -87,31 +82,29 @@ export default function Work() {
           <div className={`${styles.box_text} ${styles.rs_order2}`}>
             <h3>
               <span className="cc_br cc_padding cc_white_orange">
-                テキストテキストテキスト、
+                価値ある商品の
               </span>
               <span className="cc_padding cc_white_orange">
-                テキストテキストテキストテキスト。
+                開発をサポートさせていただきます。
               </span>
             </h3>
             <p>
-              テキストテキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキストテキスト。
+              開発に携わった商品が店舗で販売されてお客様に購入されるのを見ると、うれしくなりわくわくしますよね。
             </p>
             <p>
-              テキストテキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキストテキスト。
+              こだわりの商品をバイヤーの皆様と一緒に開発したり、海外とのつながりを作ったりと楽しく仕事ができます。
             </p>
           </div>
           <div className={`${styles.box_img} ${styles.rs_order1}`}>
             <Image
-              src="/top_environment01.webp"
+              src="/work_products01.webp"
               alt=""
               width={570}
               height={400}
               className={styles.img}
             />
             <Image
-              src="/top_environment02.webp"
+              src="/work_products02.webp"
               alt=""
               width={570}
               height={400}

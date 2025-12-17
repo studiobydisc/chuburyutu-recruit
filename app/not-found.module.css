@@ -1,0 +1,29 @@
+.wrap {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: var(--padding-medium);
+  background-color: #181818;
+  text-align: center;
+  padding-right: var(--padding-side);
+  padding-left: var(--padding-side);
+  color: var(--color-white);
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.text:last-of-type {
+  margin-bottom: 24px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link::after {
+  content: "→";
+}

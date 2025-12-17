@@ -18,20 +18,18 @@ export default function TopWork() {
         <h2 className="line_wavy">仕事を知る</h2>
         <h3>
           <span className="cc_br cc_padding cc_white_orange">
-            テキストテキストテキスト、
+            お客様に寄り添い、
           </span>
           <span className="cc_padding cc_white_orange">
-            テキストテキストテキストテキスト。
+            ご要望に合わせた課題解決をします。
           </span>
         </h3>
         <div className={styles.box_text}>
           <p>
-            テキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキスト。
+            お客様の環境変化や挑戦に寄り添い、事業の成長を支え続けていく。信頼できる専門商社としてお客様に寄り添います。
           </p>
           <p>
-            テキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキスト。
+            店舗や工場の運営サポート、食品や生活用品の商品開発サポートが私たちの主な仕事内容です。
           </p>
         </div>
         <div className={styles.btn}>
