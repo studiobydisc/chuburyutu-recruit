@@ -33,14 +33,14 @@ export default function TopTeam() {
           }}
         >
           <SplideSlide>
-            <a href="" className={styles.link}>
+            <a href="/team/interview01" className={styles.link}>
               <div className={`${styles.img} ${styles.img_src1}`}>
                 <div className={styles.cover}>
                   <div>
-                    <p className={styles.name}>名前</p>
-                    <p className={styles.text}>部署・役職</p>
+                    <p className={styles.name}>猿渡 あいみ</p>
+                    <p className={styles.text}>資材販売部</p>
                     <h3 className={styles.header3}>
-                      テキストテキストテキストテキストテキストテキスト。
+                      お客様の商品開発や店舗運営をサポート、デリカ部門を全力で支えています
                     </h3>
                   </div>
                 </div>
@@ -48,14 +48,14 @@ export default function TopTeam() {
             </a>
           </SplideSlide>
           <SplideSlide>
-            <a href="" className={styles.link}>
+            <a href="/team/interview02" className={styles.link}>
               <div className={`${styles.img} ${styles.img_src2}`}>
                 <div className={styles.cover}>
                   <div>
-                    <p className={styles.name}>名前</p>
-                    <p className={styles.text}>部署・役職</p>
+                    <p className={styles.name}>高田 智之</p>
+                    <p className={styles.text}>事業開発部・部長</p>
                     <h3 className={styles.header3}>
-                      テキストテキストテキストテキストテキストテキスト。
+                      サプライチェーンを繋ぐスペシャリスト、大規模なプロジェクトの先頭に立つ
                     </h3>
                   </div>
                 </div>
@@ -63,14 +63,14 @@ export default function TopTeam() {
             </a>
           </SplideSlide>
           <SplideSlide>
-            <a href="" className={styles.link}>
+            <a href="/team/interview03" className={styles.link}>
               <div className={`${styles.img} ${styles.img_src3}`}>
                 <div className={styles.cover}>
                   <div>
-                    <p className={styles.name}>名前</p>
-                    <p className={styles.text}>部署・役職</p>
+                    <p className={styles.name}>小池 祥</p>
+                    <p className={styles.text}>資材販売部</p>
                     <h3 className={styles.header3}>
-                      テキストテキストテキストテキストテキストテキスト。
+                      現場の頼れる存在として、売場づくりのサポートをさせていただいてます
                     </h3>
                   </div>
                 </div>
@@ -78,14 +78,14 @@ export default function TopTeam() {
             </a>
           </SplideSlide>
           <SplideSlide>
-            <a href="" className={styles.link}>
+            <a href="/team/interview04" className={styles.link}>
               <div className={`${styles.img} ${styles.img_src4}`}>
                 <div className={styles.cover}>
                   <div>
-                    <p className={styles.name}>名前</p>
-                    <p className={styles.text}>部署・役職</p>
+                    <p className={styles.name}>竹林 宥輔</p>
+                    <p className={styles.text}>商品販売部</p>
                     <h3 className={styles.header3}>
-                      テキストテキストテキストテキストテキストテキスト。
+                      消費者に愛される商品をお客様と一緒に開発
                     </h3>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ export default function TopTeam() {
         </Splide>
       </div>
       <div className={styles.btn}>
-        <Button href="/" />
+        <Button href="/team" />
       </div>
     </section>
   );

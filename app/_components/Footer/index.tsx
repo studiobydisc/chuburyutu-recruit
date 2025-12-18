@@ -9,7 +9,7 @@ export default function Footer() {
         </a>
       </div>
       <div className={styles.menu}>
-        <p className={styles.cc}>キャッチコピーキャッチコピー。</p>
+        <p className={styles.cc}>挑戦のそばに、いつも中部流通</p>
         <ul className={styles.list}>
           <li>
             <a href="/">トップ</a>
@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="/job">募集要項</a>
           </li>
         </ul>
-        <a href="" className={styles.link}>
+        <a href="https://www.chuburyutu.co.jp/" className={styles.link}>
           コーポレートサイト
         </a>
         <p className={styles.copyright}>

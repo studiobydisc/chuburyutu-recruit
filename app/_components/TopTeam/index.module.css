@@ -31,19 +31,19 @@
 }
 
 .img_src1 {
-  background-image: url("/team01_thumbnail.webp");
+  background-image: url("/team_interview01_thumbnail.webp");
 }
 
 .img_src2 {
-  background-image: url("/team02_thumbnail.webp");
+  background-image: url("/team_interview02_thumbnail.webp");
 }
 
 .img_src3 {
-  background-image: url("/team03_thumbnail.webp");
+  background-image: url("/team_interview03_thumbnail.webp");
 }
 
 .img_src4 {
-  background-image: url("/team04_thumbnail.webp");
+  background-image: url("/team_interview04_thumbnail.webp");
 }
 
 .name {

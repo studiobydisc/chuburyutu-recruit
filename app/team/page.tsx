@@ -34,68 +34,64 @@ export default function Worker() {
           <li className={styles.item}>
             <a className={styles.link} href="/team/interview01">
               <Image
-                src="/team01_thumbnail.webp"
+                src="/team_interview01_thumbnail.webp"
                 alt=""
                 width={1620}
                 height={1140}
                 className={styles.img}
               />
-              <p className={styles.name}>名前</p>
-              <p className={styles.text}>部署・役職</p>
+              <p className={styles.name}>猿渡 あいみ</p>
+              <p className={styles.text}>資材販売部</p>
               <h3 className={styles.header3}>
-                テキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキスト。
+                お客様の商品開発や店舗運営をサポート、デリカ部門を全力で支えています
               </h3>
             </a>
           </li>
           <li className={styles.item}>
             <a className={styles.link} href="/team/interview02">
               <Image
-                src="/team02_thumbnail.webp"
+                src="/team_interview02_thumbnail.webp"
                 alt=""
                 width={1620}
                 height={1140}
                 className={styles.img}
               />
-              <p className={styles.name}>名前</p>
-              <p className={styles.text}>部署・役職</p>
+              <p className={styles.name}>高田 智之</p>
+              <p className={styles.text}>事業開発部・部長</p>
               <h3 className={styles.header3}>
-                テキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキスト。
+                サプライチェーンを繋ぐスペシャリスト、大規模なプロジェクトの先頭に立つ
               </h3>
             </a>
           </li>
           <li className={styles.item}>
             <a className={styles.link} href="/team/interview03">
               <Image
-                src="/team03_thumbnail.webp"
+                src="/team_interview03_thumbnail.webp"
                 alt=""
                 width={1620}
                 height={1140}
                 className={styles.img}
               />
-              <p className={styles.name}>名前</p>
-              <p className={styles.text}>部署・役職</p>
+              <p className={styles.name}>小池 祥</p>
+              <p className={styles.text}>資材販売部</p>
               <h3 className={styles.header3}>
-                テキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキスト。
+                現場の頼れる存在として、売場づくりのサポートをさせていただいてます
               </h3>
             </a>
           </li>
           <li className={styles.item}>
             <a className={styles.link} href="/team/interview04">
               <Image
-                src="/team04_thumbnail.webp"
+                src="/team_interview04_thumbnail.webp"
                 alt=""
                 width={1620}
                 height={1140}
                 className={styles.img}
               />
-              <p className={styles.name}>名前</p>
-              <p className={styles.text}>部署・役職</p>
+              <p className={styles.name}>竹林 宥輔</p>
+              <p className={styles.text}>商品販売部</p>
               <h3 className={styles.header3}>
-                テキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキスト。
+                消費者に愛される商品をお客様と一緒に開発
               </h3>
             </a>
           </li>
