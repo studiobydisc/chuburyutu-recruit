@@ -4,7 +4,10 @@ export default function Footer() {
   return (
     <footer className={styles.wrap}>
       <div className={styles.box}>
-        <a href="" className={styles.btn}>
+        <a
+          href="https://job.mynavi.jp/27/pc/search/corp69956/outline.html?msockid=36e9512a52ad66ed1b5544bc53576791"
+          className={styles.btn}
+        >
           エントリーする
         </a>
       </div>

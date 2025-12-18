@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
 import PageTitle from "../_components/PageTitle";
-import Image from "next/image";
 
 export default function Job() {
   return (
@@ -10,8 +9,11 @@ export default function Job() {
       </div>
       <section className={`${styles.wrap} top_header_trigger`}>
         <h2>新卒採用</h2>
-        <a href="" className={styles.btn}>
-          くわしくはこちら
+        <a
+          href="https://job.mynavi.jp/27/pc/search/corp69956/outline.html?msockid=36e9512a52ad66ed1b5544bc53576791"
+          className={styles.btn}
+        >
+          マイナビ2027はこちら
         </a>
       </section>
       <section className={styles.wrap}>

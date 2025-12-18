@@ -9,7 +9,10 @@ export default function TopJobDesc() {
             <h2>募集要項</h2>
           </div>
           <div className={styles.item}>
-            <a href="" className={styles.link}>
+            <a
+              href="https://job.mynavi.jp/27/pc/search/corp69956/outline.html?msockid=36e9512a52ad66ed1b5544bc53576791"
+              className={styles.link}
+            >
               <span className={styles.text}>新卒採用の方はこちら</span>
             </a>
             <a href="" className={styles.link}>
