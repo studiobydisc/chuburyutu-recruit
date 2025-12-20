@@ -43,14 +43,14 @@ export default function Work() {
           <div className={`${styles.box_img} ${styles.box_img_top}`}>
             <Image
               src="/work_support01.webp"
-              alt=""
+              alt="ドラッグストアで商談をする店員と社員"
               width={570}
               height={400}
               className={styles.img}
             />
             <Image
               src="/work_support02.webp"
-              alt=""
+              alt="惣菜専門店で打ち合わせをする店員と社員"
               width={570}
               height={400}
               className={styles.img_right}
@@ -98,14 +98,14 @@ export default function Work() {
           <div className={`${styles.box_img} ${styles.rs_order1}`}>
             <Image
               src="/work_products01.webp"
-              alt=""
+              alt="スーパーマーケットで商品を手に取る社員"
               width={570}
               height={400}
               className={styles.img}
             />
             <Image
               src="/work_products02.webp"
-              alt=""
+              alt="事務所で商品の打ち合わせを行う社員たち"
               width={570}
               height={400}
               className={styles.img_right}

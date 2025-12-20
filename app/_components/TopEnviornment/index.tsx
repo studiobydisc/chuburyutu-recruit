@@ -9,14 +9,14 @@ export default function TopEnviornment() {
       <div className={styles.box_img}>
         <Image
           src="/top_environment01.webp"
-          alt=""
+          alt="中部流通の事務所で打ち合わせを行う社員たち"
           width={570}
           height={400}
           className={styles.img}
         />
         <Image
           src="/top_environment02.webp"
-          alt=""
+          alt="惣菜専門店での商談"
           width={570}
           height={400}
           className={styles.img_right}

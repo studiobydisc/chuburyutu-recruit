@@ -14,13 +14,21 @@ export const metadata: Metadata = {
   description:
     "バローHDグループの総合商社の中部流通の採用サイトです。ともに食品流通業のあらゆるお悩みを解決していく仲間を募集しています。",
   openGraph: {
-    title: {
-      template: "%s | 中部流通株式会社 採用サイト",
-      default: "中部流通会部式会社 採用サイト",
-    },
+    title: "中部流通会部式会社 採用サイト",
     description:
-      "バローHDグループの総合商社の中部流通の採用サイトです。ともに食品流通業のあらゆるお悩みを解決していく仲間を募集しています。",
-    images: ["/ogp.jpg"],
+      "中部流通では、店舗資材・業務用消耗品の企画開発から流通販売まで幅広く対応し、小売企業、食品加工工場・物流会社を現場目線で支援しております。",
+    url: "https://recruit.chuburyutu.co.jp/",
+    siteName: "中部流通会部式会社 採用サイト",
+    images: [
+      {
+        url: "https://recruit.chuburyutu.co.jp/ogp.jpg",
+        width: 1200,
+        height: 630,
+        alt: "中部流通株式会社",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
   },
   alternates: {
     canonical: "",

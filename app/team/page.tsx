@@ -21,7 +21,7 @@ export default function Worker() {
           </div>
           <Image
             src="/team_message.webp"
-            alt=""
+            alt="中部流通の代表取締役の写真"
             width={810}
             height={570}
             className={styles.img_message}

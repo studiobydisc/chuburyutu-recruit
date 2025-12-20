@@ -9,7 +9,7 @@ export default function TopWork() {
       <div className={styles.box_img}>
         <Image
           src="/top_work.webp"
-          alt=""
+          alt="顔を上げる社員たち"
           width={962}
           height={1234}
           className={styles.img}

@@ -25,7 +25,7 @@ export default function TopAbout() {
       <div className={styles.wrap_bottom}>
         <Image
           src="/top_about.webp"
-          alt=""
+          alt="惣菜専門店で資材について打ち合わせをする店員と社員"
           width={832}
           height={600}
           className={styles.img}

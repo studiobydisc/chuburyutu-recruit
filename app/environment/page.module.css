@@ -63,6 +63,7 @@
 .img {
   max-width: 500px;
   margin-left: auto;
+  border-radius: 20px;
 }
 
 .list {
@@ -97,6 +98,10 @@
 
   .header2 {
     font-size: 3.2rem;
+  }
+
+  .list {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

@@ -156,7 +156,7 @@ export default function Environment() {
         <div className={styles.inner}>
           <Image
             src="/environment_mv.webp"
-            alt=""
+            alt="中部流通の事務所の中"
             width={810}
             height={570}
             className={styles.img_mv}
@@ -195,7 +195,7 @@ export default function Environment() {
               </div>
               <Image
                 src="/environment_culture01.webp"
-                alt=""
+                alt="スーパーマーケットの畜産売場での商談"
                 width={500}
                 height={350}
                 className={styles.img}
@@ -216,8 +216,8 @@ export default function Environment() {
                 </p>
               </div>
               <Image
-                src="/environment_culture01.webp"
-                alt=""
+                src="/environment_culture02.webp"
+                alt="ドラッグストアで販売する惣菜の資材の商談"
                 width={500}
                 height={350}
                 className={styles.img}
@@ -238,8 +238,8 @@ export default function Environment() {
                 </p>
               </div>
               <Image
-                src="/environment_culture01.webp"
-                alt=""
+                src="/environment_culture03.webp"
+                alt="惣菜専門店でのパッケージの提案"
                 width={500}
                 height={350}
                 className={styles.img}
