@@ -37,6 +37,7 @@ export default function TopHero() {
                 autoScroll: {
                   speed: 0.8,
                 },
+                gap: "2vw",
               },
             },
           }}
