@@ -3,7 +3,6 @@
 import styles from "./index.module.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
-import Image from "next/image";
 import Button from "../Button";
 
 export default function TopTeam() {
@@ -40,7 +39,11 @@ export default function TopTeam() {
                     <p className={styles.name}>猿渡 あいみ</p>
                     <p className={styles.text}>資材販売部</p>
                     <h3 className={styles.header3}>
-                      お客様の商品開発や店舗運営をサポート、デリカ部門を全力で支えています
+                      お客様の
+                      <span className={styles.strong}>
+                        商品開発や店舗運営をサポート
+                      </span>
+                      、デリカ部門を全力で支えています
                     </h3>
                   </div>
                 </div>
@@ -55,7 +58,9 @@ export default function TopTeam() {
                     <p className={styles.name}>高田 智之</p>
                     <p className={styles.text}>事業開発部・部長</p>
                     <h3 className={styles.header3}>
-                      サプライチェーンを繋ぐスペシャリスト、大規模なプロジェクトの先頭に立つ
+                      サプライチェーンを繋ぐ
+                      <span className={styles.strong}>スペシャリスト</span>
+                      、大規模なプロジェクトの先頭に立つ
                     </h3>
                   </div>
                 </div>
@@ -70,7 +75,8 @@ export default function TopTeam() {
                     <p className={styles.name}>小池 祥</p>
                     <p className={styles.text}>資材販売部</p>
                     <h3 className={styles.header3}>
-                      現場の頼れる存在として、売場づくりのサポートをさせていただいてます
+                      <span className={styles.strong}>現場の頼れる存在</span>
+                      として、売場づくりのサポートをさせていただいてます
                     </h3>
                   </div>
                 </div>
@@ -85,7 +91,10 @@ export default function TopTeam() {
                     <p className={styles.name}>竹林 宥輔</p>
                     <p className={styles.text}>商品販売部</p>
                     <h3 className={styles.header3}>
-                      消費者に愛される商品をお客様と一緒に開発
+                      <span className={styles.strong}>
+                        消費者に愛される商品
+                      </span>
+                      をお客様と一緒に開発
                     </h3>
                   </div>
                 </div>
