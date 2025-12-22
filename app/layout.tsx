@@ -6,7 +6,7 @@ import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://recruit.chuburyutu.vercel.app"),
+  metadataBase: new URL("https://recruit.chuburyutu.co.jp/"),
   title: {
     template: "%s | 中部流通株式会社 採用サイト",
     default: "中部流通会部式会社 採用サイト",
@@ -31,17 +31,17 @@ export const metadata: Metadata = {
     type: "website",
   },
   alternates: {
-    canonical: "",
+    canonical: "https://recruit.chuburyutu.co.jp/",
   },
   verification: {
     google: "",
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
     },
   },
 };
