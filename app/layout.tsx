@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Noto_Sans_JP, Zen_Kaku_Gothic_New, Open_Sans } from "next/font/google";
 import Lenis from "./_components/Lenis";
 import Header from "./_components/Header";
@@ -82,6 +83,7 @@ export default function RootLayout({
         <Lenis>{children}</Lenis>
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-7DR2MY99VF" />
     </html>
   );
 }
