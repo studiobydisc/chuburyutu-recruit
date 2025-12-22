@@ -12,7 +12,7 @@ export default function TopAbout() {
               食品流通業の現場を、
             </span>
             <span className="cc_padding cc_white">
-              さまざまな角度から支えています。
+              様々な角度から支えています。
             </span>
           </h2>
           <div className={styles.cc_sub}>

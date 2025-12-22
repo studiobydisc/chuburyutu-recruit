@@ -49,7 +49,7 @@
   }
 
   .wrap {
-    height: calc(52svh);
+    min-height: calc(52svh);
   }
 
   .img {
