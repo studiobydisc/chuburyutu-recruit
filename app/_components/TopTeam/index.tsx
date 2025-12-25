@@ -40,7 +40,7 @@ export default function TopTeam() {
                     <p className={styles.text}>資材販売部</p>
                     <h3 className={styles.header3}>
                       お客様の
-                      <span className={styles.strong}>
+                      <span className={`${styles.strong} ${styles.strong1}`}>
                         商品開発や店舗運営をサポート
                       </span>
                       、デリカ部門を全力で支えています
@@ -59,7 +59,9 @@ export default function TopTeam() {
                     <p className={styles.text}>事業開発部・部長</p>
                     <h3 className={styles.header3}>
                       サプライチェーンを繋ぐ
-                      <span className={styles.strong}>スペシャリスト</span>
+                      <span className={`${styles.strong} ${styles.strong2}`}>
+                        スペシャリスト
+                      </span>
                       、大規模なプロジェクトの先頭に立つ
                     </h3>
                   </div>
@@ -75,7 +77,9 @@ export default function TopTeam() {
                     <p className={styles.name}>小池 祥</p>
                     <p className={styles.text}>資材販売部</p>
                     <h3 className={styles.header3}>
-                      <span className={styles.strong}>現場の頼れる存在</span>
+                      <span className={`${styles.strong} ${styles.strong3}`}>
+                        現場の頼れる存在
+                      </span>
                       として、売場づくりのサポートをさせていただいてます
                     </h3>
                   </div>
@@ -91,7 +95,7 @@ export default function TopTeam() {
                     <p className={styles.name}>竹林 宥輔</p>
                     <p className={styles.text}>商品販売部</p>
                     <h3 className={styles.header3}>
-                      <span className={styles.strong}>
+                      <span className={`${styles.strong} ${styles.strong4}`}>
                         消費者に愛される商品
                       </span>
                       をお客様と一緒に開発

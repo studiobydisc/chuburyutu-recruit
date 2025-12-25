@@ -68,6 +68,22 @@
   font-weight: 700;
 }
 
+.strong1 {
+  color: var(--color-red);
+}
+
+.strong2 {
+  color: #268c4a;
+}
+
+.strong3 {
+  color: #227ea7;
+}
+
+.strong4 {
+  color: #776bbf;
+}
+
 .btn {
   padding-right: var(--padding-side);
   padding-left: var(--padding-side);
