@@ -21,6 +21,15 @@
   gap: var(--padding-topbottom);
 }
 
+.box {
+  margin-top: 24px;
+  text-align: end;
+}
+
+.post {
+  margin-bottom: 0;
+}
+
 .img_message,
 .img {
   border-radius: 20px;

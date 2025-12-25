@@ -18,6 +18,10 @@ export default function Worker() {
             <p>
               これを実現するためには、異なる個性を持った多士済々なメンバーが、お互いのアイデアを持ち寄り新たなソリューションを創造する、そんな組織にしていきたい、と考えております。
             </p>
+            <div className={styles.box}>
+              <p className={styles.post}>代表取締役社長</p>
+              <p>山田 武彦</p>
+            </div>
           </div>
           <Image
             src="/team_message.webp"
