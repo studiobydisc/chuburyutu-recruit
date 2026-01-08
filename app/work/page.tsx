@@ -17,7 +17,7 @@ export default function Work() {
                 私たちはバローを裏で支える、
               </span>
               <span className="cc_padding cc_white_orange">
-                バローHDのグループ企業のです。
+                バローHDのグループ企業です。
               </span>
             </h3>
             <p>

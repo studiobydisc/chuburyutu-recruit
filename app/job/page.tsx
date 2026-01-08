@@ -18,7 +18,10 @@ export default function Job() {
       </section>
       <section className={styles.wrap}>
         <h2>キャリア採用</h2>
-        <a href="" className={styles.btn}>
+        <a
+          href="https://jp.indeed.com/viewjob?jk=3c1a06df3fe41143&from=shareddesktop_copy"
+          className={styles.btn}
+        >
           くわしくはこちら
         </a>
       </section>

@@ -15,7 +15,10 @@ export default function TopJobDesc() {
             >
               <span className={styles.text}>新卒採用の方はこちら</span>
             </a>
-            <a href="" className={styles.link}>
+            <a
+              href="https://jp.indeed.com/viewjob?jk=3c1a06df3fe41143&from=shareddesktop_copy"
+              className={styles.link}
+            >
               <span className={styles.text}>中途採用の方はこちら</span>
             </a>
           </div>
